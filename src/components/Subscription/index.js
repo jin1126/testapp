@@ -101,7 +101,7 @@ class Subscription extends Component {
                 <View style={{flexDirection: 'row', flex:0.25}}>
                     <View style = {{width: 70}}></View>
                     
-                    <LinearGradient start={{x:0, y:0}} end = {{x:1, y:0}} colors={['#0478db', '#34bbfd']} style={{marginTop:10, marginBottom:10, borderRadius: 35, flex:1}}>
+                    <LinearGradient start={{x:0, y:0}} end = {{x:1, y:0}} colors={['#0478db', '#34bbfd']} style={{marginTop:10, height:47, borderRadius: 35, flex:1}}>
                         <TouchableOpacity style = {{flex: 1, flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
                             <Text style={{fontSize:20, color:'#fff'}}>ACTIVATE</Text>
                             <Image style={{resizeMode:'contain', position:'absolute', width:20, right:10, bottom:0, top:0}} source={rightImage}></Image>

@@ -79,7 +79,7 @@ class CountryChoose extends Component {
 
     render() {
       return (
-          <View style={{ flex: 1 }}>
+          <View style={{ flex: 1 , backgroundColor:'#fff'}}>
             <View style={styles.search}>
               <Image style={{width: 10, height: 10, marginLeft: 10, marginRight:5}} source={searchImage}></Image>
               <Text>Search</Text>
