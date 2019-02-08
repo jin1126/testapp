@@ -1,0 +1,4 @@
+#Sat Feb 09 02:16:57 VLAT 2019
+base.0=/Volumes/Dev/mobile/testapp/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
