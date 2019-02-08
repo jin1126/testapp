@@ -100,7 +100,7 @@ class CountryChoose extends Component {
                       flexDirection: 'row',
                       borderBottomWidth: index !== (this.state.data.length - 1) ? 1 : 0,
                       borderBottomColor: '#888'}}
-                      key = {item}
+                      key = {index}
                       onPress={this.props.onCountryClick}
                   >
                       <Image style={{ width: 40, height: 40 }} source={item.imageUrl}></Image>
